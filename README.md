@@ -1,16 +1,39 @@
-## Hi there 👋
+# ¡Hola! 👋 Soy [Tu Nombre]
 
-<!--
-**adrian0511/adrian0511** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Estudiante universitario y desarrollador en formación
 
-Here are some ideas to get you started:
+Bienvenido a mi perfil de GitHub. Soy un apasionado del desarrollo de software, actualmente cursando mis estudios universitarios mientras perfecciono mis habilidades en programación y tecnologías modernas.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 Tecnologías Favoritas
+
+- **Java + Spring Boot** - Mi framework preferido para desarrollo backend
+- **Python** - Versátil y poderoso para diversos proyectos
+- **MySQL** - Mi sistema de gestión de bases de datos de elección
+
+## 💻 Habilidades Técnicas
+
+### Lenguajes de Programación
+- Java (Spring Boot, Spring MVC, JPA/Hibernate)
+- Python
+- SQL (MySQL)
+- HTML/CSS/JavaScript (Básico)
+
+### Herramientas y Tecnologías
+- Git & GitHub
+- Maven
+- Postman
+- IntelliJ IDEA, VS Code
+- MySQL Workbench
+
+## 🎯 Objetivos Actuales
+
+- [ ] Mejorar mis habilidades en Spring Boot
+- [ ] Aprender más sobre microservicios
+- [ ] Desarrollar proyectos full-stack
+- [ ] Contribuir a proyectos open source
+
+---
+
+⭐️ *"El mejor momento para plantar un árbol fue hace 20 años. El segundo mejor momento es ahora."*
+
+¡No dudes en explorar mis repositorios y contactarme si quieres colaborar en algún proyecto!
