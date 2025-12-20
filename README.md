@@ -15,7 +15,7 @@ Bienvenido a mi perfil de GitHub. Soy un apasionado del desarrollo de software, 
 ### Lenguajes de Programación
 - Java (Spring Boot, Spring MVC, JPA/Hibernate)
 - Python
-- SQL (MySQL)
+- SQL (MySQL, PostgreSQL)
 - HTML/CSS/JavaScript (Básico)
 
 ### Herramientas y Tecnologías
@@ -24,6 +24,7 @@ Bienvenido a mi perfil de GitHub. Soy un apasionado del desarrollo de software, 
 - Postman
 - IntelliJ IDEA, VS Code
 - MySQL Workbench
+- PgAdmin
 
 ## 🎯 Objetivos Actuales
 
