@@ -35,6 +35,4 @@ Bienvenido a mi perfil de GitHub. Soy un apasionado del desarrollo de software, 
 
 ---
 
-⭐️ *"El mejor momento para plantar un árbol fue hace 20 años. El segundo mejor momento es ahora."*
-
 ¡No dudes en explorar mis repositorios y contactarme si quieres colaborar en algún proyecto!
