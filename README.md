@@ -47,12 +47,15 @@
 ## 📊 Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=adrian0511&show_icons=true&theme=tokyonight&count_private=true" alt="Stats de Adrián" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=adrian0511&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=1800&v=1.0.1" alt="Stats de Adrián" />
   <br/>
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adrian0511&layout=compact&theme=tokyonight&hide=html,css" alt="Lenguajes más usados" />
+  
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adrian0511&layout=compact&theme=tokyonight&hide=html,css&cache_seconds=1800&v=1.0.1" alt="Lenguajes más usados" />
   <br/>
-  <img src="https://streak-stats.demolab.com/?user=adrian0511&theme=tokyonight" alt="GitHub Streak" />
+  
+  <img src="https://streak-stats.demolab.com/?user=adrian0511&theme=tokyonight&cache_seconds=1800&v=1.0.1" alt="GitHub Streak" />
 </p>
+
 
 ---
 
