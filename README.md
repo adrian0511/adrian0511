@@ -1,8 +1,9 @@
-<h1 align="center">Adrián Garcés</h1>
-<h3 align="center">Backend Developer · Distributed Systems Architecture · Fullstack Capable</h3>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0052CC,100:00F7FF&height=180&section=header&text=Adrián%20Garcés&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20·%20Distributed%20Systems%20·%20Fullstack%20Capable&descAlignY=58&descSize=18" alt="Header banner" width="100%" />
+</p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&pause=1000&color=00F7FF&center=true&vCenter=true&width=520&lines=Backend+Developer+%26+Fullstack;Spring+Boot+%7C+Microservicios+%7C+Kafka;React+%7C+Redux+State+Management;FastAPI+%7C+Swagger+%7C+OpenAPI;NestJS+%7C+TypeScript+%7C+Sequelize;Arquitectura+Event-Driven" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00F7FF&center=true&vCenter=true&width=520&lines=Backend+Developer+%26+Fullstack;Spring+Boot+%7C+Microservicios+%7C+Kafka;React+%7C+Redux+State+Management;FastAPI+%7C+Swagger+%7C+OpenAPI;NestJS+%7C+TypeScript+%7C+Sequelize;Arquitectura+Event-Driven" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -34,22 +35,8 @@ Desarrollador enfocado en **backend** y **diseño de sistemas distribuidos**, am
 
 ## Tech Stack
 
-**Lenguajes y frameworks**
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,nestjs,typescript,react,redux" alt="Lenguajes y frameworks" />
-</p>
-
-**Bases de datos, mensajería y monitoreo**
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,kafka,prometheus,grafana" alt="Bases de datos, mensajería y monitoreo" />
-</p>
-
-**DevOps, documentación y herramientas**
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=docker,linux,nginx,postman,git,github" alt="DevOps y herramientas" />
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/adrian0511/adrian0511@main/assets/animated-icons.svg" alt="Tech stack animado" width="100%" />
 </p>
 
 **Librerías y estándares**
@@ -89,6 +76,13 @@ Desarrollador enfocado en **backend** y **diseño de sistemas distribuidos**, am
 ## GitHub Stats
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adrian0511/adrian0511/output/github-contribution-grid-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/adrian0511/adrian0511/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%" />
+  </picture>
+</p>
+
+<p align="center">
   <img src="https://streak-stats.demolab.com/?user=adrian0511&theme=tokyonight&cache_seconds=1800" alt="GitHub Streak" width="60%" />
 </p>
 
@@ -100,6 +94,9 @@ Desarrollador enfocado en **backend** y **diseño de sistemas distribuidos**, am
   <img src="https://img.shields.io/github/followers/adrian0511?style=for-the-badge&label=Followers&color=00F7FF&logo=github" alt="Followers" />
   <img src="https://img.shields.io/github/last-commit/adrian0511/adrian0511?style=for-the-badge&color=00F7FF" alt="Último commit" />
 </p>
+
+> Nota: quité las tarjetas de "Estadísticas de GitHub" y "Lenguajes más usados" (`github-readme-stats.vercel.app` y `vn7n24fzkq.vercel.app`) porque, tras comprobarlo en tu perfil real, no cargaban — esos dos servicios públicos están saturados de peticiones y fallan con frecuencia. Dejé solo las tarjetas que sí se confirmaron funcionando en tu README (Streak y Gráfico de actividad) más un par de badges de Shields.io, que son mucho más estables al no depender de esos servidores compartidos.
+
 <br />
 
 ## Actualmente
