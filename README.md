@@ -89,11 +89,6 @@ Desarrollador enfocado en **backend** y **diseño de sistemas distribuidos**, am
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=adrian0511&show_icons=true&theme=tokyonight&count_private=true&cache_seconds=1800" alt="Estadísticas de GitHub" width="47%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=adrian0511&layout=compact&theme=tokyonight&hide=html,css&cache_seconds=1800" alt="Lenguajes más usados" width="47%" />
-</p>
-
-<p align="center">
   <img src="https://streak-stats.demolab.com/?user=adrian0511&theme=tokyonight&cache_seconds=1800" alt="GitHub Streak" width="60%" />
 </p>
 
@@ -102,10 +97,9 @@ Desarrollador enfocado en **backend** y **diseño de sistemas distribuidos**, am
 </p>
 
 <p align="center">
-  <img src="https://vn7n24fzkq.vercel.app/api/top-langs/?username=adrian0511&theme=tokyonight&hide=html,css" alt="Top languages (summary cards)" width="47%" />
-  <img src="https://vn7n24fzkq.vercel.app/api/most-commit-language/?username=adrian0511&theme=tokyonight" alt="Most commit language" width="47%" />
+  <img src="https://img.shields.io/github/followers/adrian0511?style=for-the-badge&label=Followers&color=00F7FF&logo=github" alt="Followers" />
+  <img src="https://img.shields.io/github/last-commit/adrian0511/adrian0511?style=for-the-badge&color=00F7FF" alt="Último commit" />
 </p>
-
 <br />
 
 ## Actualmente
