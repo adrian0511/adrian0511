@@ -83,10 +83,6 @@ Desarrollador enfocado en **backend** y **diseño de sistemas distribuidos**, am
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=adrian0511&theme=tokyonight&cache_seconds=1800" alt="GitHub Streak" width="60%" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=adrian0511&theme=tokyo-night&hide_border=true&area=true" alt="Gráfico de actividad" width="90%" />
 </p>
 
@@ -94,10 +90,6 @@ Desarrollador enfocado en **backend** y **diseño de sistemas distribuidos**, am
   <img src="https://img.shields.io/github/followers/adrian0511?style=for-the-badge&label=Followers&color=00F7FF&logo=github" alt="Followers" />
   <img src="https://img.shields.io/github/last-commit/adrian0511/adrian0511?style=for-the-badge&color=00F7FF" alt="Último commit" />
 </p>
-
-> Nota: quité las tarjetas de "Estadísticas de GitHub" y "Lenguajes más usados" (`github-readme-stats.vercel.app` y `vn7n24fzkq.vercel.app`) porque, tras comprobarlo en tu perfil real, no cargaban — esos dos servicios públicos están saturados de peticiones y fallan con frecuencia. Dejé solo las tarjetas que sí se confirmaron funcionando en tu README (Streak y Gráfico de actividad) más un par de badges de Shields.io, que son mucho más estables al no depender de esos servidores compartidos.
-
-<br />
 
 ## Actualmente
 
