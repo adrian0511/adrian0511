@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 42" width="470" height="42" role="img" aria-label="Backend Developer · Java 21 &amp; Spring Boot / Microservicios · Kafka · Spring Cloud / APIs REST · OpenAPI · Resilience4j / React · TypeScript · NestJS / prompt-link · publicado en Maven Central">
+  <title>Backend Developer · Java 21 &amp; Spring Boot / Microservicios · Kafka · Spring Cloud / APIs REST · OpenAPI · Resilience4j / React · TypeScript · NestJS / prompt-link · publicado en Maven Central</title>
+  <rect x=".5" y=".5" width="469" height="41" rx="10" fill="#0D1524" stroke="#1F6FEB" stroke-opacity=".3"/>
+
+  <!-- prompt ❯ dibujado como path: no depende de que la fuente traiga el glifo -->
+  <path d="M18 14 L25 21 L18 28" fill="none" stroke="#3FB950" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <clipPath id="c0"><rect x="44.0" y="6" height="30" width="0">
+      <animate attributeName="width" values="0;0.0;393.6;393.6;0.0;0" keyTimes="0;0.00000;0.07143;0.16190;0.18571;1" dur="21s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <text clip-path="url(#c0)" x="44.0" y="27.0" textLength="393.6" lengthAdjust="spacing"
+          font-family="'Cascadia Code','Fira Code','JetBrains Mono',Consolas,'DejaVu Sans Mono',monospace" font-size="16" fill="#C9D6E4">Backend Developer · Java 21 &amp; Spring Boot</text>
+    <clipPath id="c1"><rect x="44.0" y="6" height="30" width="0">
+      <animate attributeName="width" values="0;0.0;355.2;355.2;0.0;0" keyTimes="0;0.20000;0.27143;0.36190;0.38571;1" dur="21s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <text clip-path="url(#c1)" x="44.0" y="27.0" textLength="355.2" lengthAdjust="spacing"
+          font-family="'Cascadia Code','Fira Code','JetBrains Mono',Consolas,'DejaVu Sans Mono',monospace" font-size="16" fill="#C9D6E4">Microservicios · Kafka · Spring Cloud</text>
+    <clipPath id="c2"><rect x="44.0" y="6" height="30" width="0">
+      <animate attributeName="width" values="0;0.0;326.4;326.4;0.0;0" keyTimes="0;0.40000;0.47143;0.56190;0.58571;1" dur="21s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <text clip-path="url(#c2)" x="44.0" y="27.0" textLength="326.4" lengthAdjust="spacing"
+          font-family="'Cascadia Code','Fira Code','JetBrains Mono',Consolas,'DejaVu Sans Mono',monospace" font-size="16" fill="#C9D6E4">APIs REST · OpenAPI · Resilience4j</text>
+    <clipPath id="c3"><rect x="44.0" y="6" height="30" width="0">
+      <animate attributeName="width" values="0;0.0;259.2;259.2;0.0;0" keyTimes="0;0.60000;0.67143;0.76190;0.78571;1" dur="21s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <text clip-path="url(#c3)" x="44.0" y="27.0" textLength="259.2" lengthAdjust="spacing"
+          font-family="'Cascadia Code','Fira Code','JetBrains Mono',Consolas,'DejaVu Sans Mono',monospace" font-size="16" fill="#C9D6E4">React · TypeScript · NestJS</text>
+    <clipPath id="c4"><rect x="44.0" y="6" height="30" width="0">
+      <animate attributeName="width" values="0;0.0;384.0;384.0;0.0;0" keyTimes="0;0.80000;0.87143;0.96190;0.98571;1" dur="21s" repeatCount="indefinite"/>
+    </rect></clipPath>
+    <text clip-path="url(#c4)" x="44.0" y="27.0" textLength="384.0" lengthAdjust="spacing"
+          font-family="'Cascadia Code','Fira Code','JetBrains Mono',Consolas,'DejaVu Sans Mono',monospace" font-size="16" fill="#C9D6E4">prompt-link · publicado en Maven Central</text>
+
+  <rect y="12" width="2" height="20" rx="1" fill="#00F7FF" x="44.0">
+    <animate attributeName="x" values="44.0;44.0;437.6;437.6;44.0;44.0;399.2;399.2;44.0;44.0;370.4;370.4;44.0;44.0;303.2;303.2;44.0;44.0;428.0;428.0;44.0;44.0" keyTimes="0;0.00000;0.07143;0.16190;0.18571;0.20000;0.27143;0.36190;0.38571;0.40000;0.47143;0.56190;0.58571;0.60000;0.67143;0.76190;0.78571;0.80000;0.87143;0.96190;0.98571;1" dur="21s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.45;.5;.95;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

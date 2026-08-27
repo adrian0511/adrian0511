@@ -1,123 +1,129 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0052CC,100:00F7FF&height=180&section=header&text=Adrián%20Garcés&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Developer%20·%20Distributed%20Systems%20·%20Fullstack%20Capable&descAlignY=58&descSize=18" alt="Header banner" width="100%" />
+  <img src="assets/header.svg" alt="Adrián Garcés — Backend Developer" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=00F7FF&center=true&vCenter=true&width=520&lines=Backend+Developer+%26+Fullstack;Spring+Boot+%7C+Microservicios+%7C+Kafka;React+%7C+Redux+State+Management;FastAPI+%7C+Swagger+%7C+OpenAPI;NestJS+%7C+TypeScript+%7C+Sequelize;Arquitectura+Event-Driven" alt="Typing SVG" />
+  <img src="assets/typing.svg" alt="Backend Developer · Java 21 &amp; Spring Boot · Microservicios · Kafka · Spring Cloud" />
 </p>
 
 <p align="center">
-  <a href="https://adrian0511.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-0052CC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://linkedin.com/in/adrdev" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/adrian0511" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
+  <a href="https://adrian0511.dev"><img src="assets/badge-portfolio.svg" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/adrdev"><img src="assets/badge-linkedin.svg" alt="LinkedIn" /></a>
+  <a href="https://github.com/adrian0511?tab=repositories"><img src="assets/badge-github.svg" alt="Repositorios" /></a>
 </p>
 
-<br />
+---
 
 ## Sobre mí
 
-Desarrollador enfocado en **backend** y **diseño de sistemas distribuidos**, ampliando mis capacidades hacia el desarrollo **frontend moderno** y la infraestructura. Me interesa construir APIs robustas y bien documentadas, arquitecturas resilientes y las interfaces de usuario que las consumen.
+Desarrollador **backend** centrado en Java y el ecosistema Spring, con foco en **sistemas
+distribuidos**: microservicios, mensajería asíncrona y APIs documentadas por contrato. Trabajo
+también el lado cliente (React, TypeScript) porque diseñar bien una API exige entender a quien
+la consume.
 
-- Diseño y construcción de microservicios con **Spring Boot** y **Spring Cloud**
-- Definición de contratos de API con **Swagger / OpenAPI**, validados con **Postman**
-- Desarrollo de interfaces con **React** y gestión de estado con **Redux**
-- Arquitecturas *event-driven* de alta disponibilidad con **Apache Kafka**
-- Observabilidad y monitoreo de servicios con **Prometheus** y **Grafana**
-- APIs REST de alto rendimiento con **FastAPI** y **Python**
+- Microservicios con **Spring Boot 4** y **Spring Cloud** — Eureka, Gateway, OpenFeign, Resilience4j
+- Arquitecturas *event-driven* con **Apache Kafka** y patrón saga entre servicios
+- Contratos de API con **OpenAPI / Swagger**, seguridad con **OAuth2** y **JWT**
+- **Arquitectura hexagonal** y DDD, con tests en todas las capas (JUnit 5, Mockito, Vitest)
+- SPAs con **React**, **TypeScript** y **Vite**, y APIs en **Python / FastAPI**
+- Despliegue con **Docker Compose**, **Nginx** y observabilidad con **Prometheus** y **Grafana**
 
-<br />
+Santa Cruz de Bezana, Cantabria (España) · [adrian0511.dev](https://adrian0511.dev)
 
-## Tech Stack
+---
+
+## Publicado en Maven Central
+
+**[`prompt-link`](https://github.com/adrian0511/prompt-link)** — cliente Java reutilizable para IA
+generativa a través de OpenRouter, con auto-configuración de Spring Boot.
+Disponible en **Maven Central** como `io.github.adrian0511:prompt-link`, versión **1.1.0**.
+
+```xml
+<dependency>
+    <groupId>io.github.adrian0511</groupId>
+    <artifactId>prompt-link</artifactId>
+    <version>1.1.0</version>
+</dependency>
+```
+
+- Auto-configuración: basta con añadir la dependencia, sin `@EnableFeignClients`
+- Cliente Feign **aislado** — el interceptor de la API key vive solo en su contexto, así que la
+  clave no se filtra a otros clientes Feign de la aplicación
+- Errores **tipados** (`AiClientException`): distingue error de API, de red, respuesta inutilizable
+  y fallo de configuración
+- *Streaming* de tokens con `Flux<String>` sobre WebFlux, y conversaciones multi-turno
+
+---
+
+## Proyectos
+
+| Proyecto | Qué es | Stack |
+|---|---|---|
+| **[orderflow](https://github.com/adrian0511/orderflow)** | Plataforma de pedidos sobre **9 microservicios**: catálogo, reserva de inventario, pago simulado y notificación por correo, coordinados por eventos. | Java 21 · Spring Boot 4 · Kafka · OAuth2 *Authorization Code* · Eureka · Gateway · Resilience4j · OpenAPI |
+| **[finance-tracker](https://github.com/adrian0511/finance-tracker)** | Gestión de finanzas personales con asistente de IA que categoriza movimientos. Un solo artefacto: el backend sirve el cliente React desde el propio jar, sin CORS ni doble despliegue. | Spring Boot · React · PostgreSQL · JWT · IA generativa |
+| **[cookbook](https://github.com/adrian0511/cookbook)** | Gestor de recetas full-stack con **arquitectura hexagonal** (puertos y adaptadores), invariantes de dominio, paginación, búsqueda por ingrediente y valoraciones. **102 tests**. | Java 21 · Spring Boot 4.1 · React 19 · Vite · Tailwind 4 · PostgreSQL 16 · Docker |
+| **[portfolio](https://github.com/adrian0511/portfolio)** · [en vivo](https://adrian0511.dev) | Portfolio reactivo que consume la API de GitHub en tiempo real, con *timeouts*, *fallback* e i18n español/inglés. | Spring WebFlux · React 18 · Vite · JUnit 5 · Vitest |
+| **[gym-reservas](https://github.com/adrian0511/gym-reservas)** | Reservas de clases de gimnasio con cupos en tiempo real, lista de espera y control de acceso por roles. | NestJS · React 18 · TypeScript · Sequelize · PostgreSQL 16 · Tailwind |
+| **[ride-hailing-microservices](https://github.com/adrian0511/ride-hailing-microservices)** | Microservicios de *ride hailing* con autenticación centralizada: `authorization_code` para usuarios y `client_credentials` entre servicios. | Spring Cloud · OAuth2 · JWT · Eureka · OpenFeign · Circuit Breaker |
+| **[bug-hunt](https://github.com/adrian0511/bug-hunt)** | Dos retos que comparten un mismo *token bucket* implementado **una sola vez**: filtro `stdin → stdout` y acortador de URLs con *rate limiting* por IP. | Python 3.12 · FastAPI · SQLite |
+| **[distributed-ecommerce-platform](https://github.com/adrian0511/distributed-ecommerce-platform)** | E-commerce distribuido con descubrimiento de servicios y cortocircuito ante fallos. | Spring Boot · Eureka · Gateway · Resilience4j · PostgreSQL |
+
+> El resto de repositorios, en **[github.com/adrian0511?tab=repositories](https://github.com/adrian0511?tab=repositories)**
+
+---
+
+## Stack
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/adrian0511/adrian0511@main/assets/animated-icons.svg" alt="Tech stack animado" width="100%" />
+  <img src="assets/animated-icons.svg" alt="Java, Spring, Python, FastAPI, NestJS, TypeScript, React, Redux, Docker, Git, PostgreSQL, MySQL, Kafka, Prometheus, Grafana, Linux, Nginx, Postman, GitHub" width="100%" />
 </p>
 
-**Librerías y estándares**
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black" alt="Swagger" />
-  <img src="https://img.shields.io/badge/OpenAPI-6C6C6C?style=flat-square&logo=openapiinitiative&logoColor=white" alt="OpenAPI" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
-  <img src="https://img.shields.io/badge/Spring_Cloud-6DB33F?style=flat-square&logo=spring&logoColor=white" alt="Spring Cloud" />
-  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white" alt="Spring Security" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" alt="Grafana" />
+<p align="center">
+  <img src="assets/tools.svg" alt="Spring Cloud, Spring Security, Spring WebFlux, Eureka, OpenFeign, Resilience4j, Apache Kafka, OAuth2, JWT, OpenAPI y Swagger, Hibernate y JPA, Flyway, JUnit 5, Mockito, Testcontainers, Docker Compose, Nginx, Prometheus, Grafana, Vite, Tailwind CSS, Redux Toolkit, Sequelize, Vitest" width="100%" />
 </p>
 
-<br />
+---
 
 ## Arquitectura y enfoque
 
-| Área | Stack / Herramientas |
+| Área | Cómo lo trabajo |
 |---|---|
-| Diseño y documentación de APIs | REST · Swagger / OpenAPI · Postman |
-| Microservicios | Spring Cloud · NestJS |
-| Frontend y estado | React · Redux Toolkit · Context API |
-| Event-driven | Apache Kafka |
-| Observabilidad | Prometheus · Grafana |
-| Reverse proxy y servidores | Nginx (load balancing, gateway) |
-| Autenticación y seguridad | Spring Security · OAuth2 · JWT |
-| Persistencia | PostgreSQL · MySQL · Sequelize · SQLAlchemy |
-| DevOps | Docker · Linux · Git |
+| **Diseño de APIs** | Contrato primero con OpenAPI, documentación viva en Swagger UI, validación con Postman |
+| **Microservicios** | Spring Cloud Gateway como entrada única, Eureka para descubrimiento, OpenFeign entre servicios |
+| **Resiliencia** | Circuit breaker y *fallbacks* con Resilience4j, *timeouts* explícitos, degradación controlada |
+| **Event-driven** | Kafka para desacoplar servicios; saga para consistencia eventual en pedidos y pagos |
+| **Seguridad** | Spring Security + OAuth2 Authorization Server, JWT con *scopes* y roles |
+| **Arquitectura** | Hexagonal y DDD: el dominio no conoce a Spring ni a la base de datos |
+| **Testing** | JUnit 5, Mockito, AssertJ y *slices* de Spring en backend; Vitest y Testing Library en frontend |
+| **Persistencia** | PostgreSQL y MySQL con JPA/Hibernate; Sequelize en NestJS; SQLAlchemy en Python |
+| **Infraestructura** | Docker Compose, Nginx como *reverse proxy*, métricas con Prometheus y paneles en Grafana |
 
-<br />
+---
 
-## GitHub Stats
+## Contribuciones
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/adrian0511/adrian0511/output/github-contribution-grid-snake-dark.svg" />
-    <img src="https://raw.githubusercontent.com/adrian0511/adrian0511/output/github-contribution-grid-snake.svg" alt="Snake animation" width="100%" />
+    <img src="https://raw.githubusercontent.com/adrian0511/adrian0511/output/github-contribution-grid-snake.svg" alt="Serpiente recorriendo el grid de contribuciones" width="100%" />
   </picture>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=adrian0511&theme=tokyo-night&hide_border=true&area=true" alt="Gráfico de actividad" width="90%" />
-</p>
+---
+
+## En qué estoy ahora
+
+- Manteniendo **prompt-link** en Maven Central: *streaming*, errores tipados y compatibilidad con Spring Boot 4.
+- Llevando el patrón **saga** de `orderflow` a un flujo con compensaciones completas sobre Kafka.
+- Consolidando la **arquitectura hexagonal** de `cookbook` como plantilla base para nuevos servicios.
+- Observabilidad de extremo a extremo: métricas de Spring Actuator en Prometheus y paneles en Grafana.
+
+---
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/adrian0511?style=for-the-badge&label=Followers&color=00F7FF&logo=github" alt="Followers" />
-  <img src="https://img.shields.io/github/last-commit/adrian0511/adrian0511?style=for-the-badge&color=00F7FF" alt="Último commit" />
+  <a href="https://adrian0511.dev"><img src="assets/badge-portfolio.svg" alt="Portfolio" /></a>
+  <a href="https://linkedin.com/in/adrdev"><img src="assets/badge-linkedin.svg" alt="LinkedIn" /></a>
 </p>
-
-## Actualmente
-
-- Estandarizando el diseño de endpoints backend con especificaciones **OpenAPI** y documentación interactiva en **Swagger**.
-- Integrando arquitecturas SPA con **React**, gestionando estado global con **Redux**.
-- Desplegando infraestructura monitoreada con **Prometheus** y **Grafana** detrás de **Nginx**.
-- Construyendo flujos asíncronos con **Spring Boot** y **Kafka**.
-
-<br />
-
-## Objetivo
-
-Consolidarme como **Software Engineer** integral: capaz de diseñar y documentar APIs impecables, construir sistemas distribuidos de alto rendimiento, monitorizar su comportamiento en producción y conectar todo el ecosistema con interfaces frontend modernas y eficientes.
-
-<br />
-
-## Contacto
-
-<p align="left">
-  <a href="https://adrian0511.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-0052CC?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="https://linkedin.com/in/adrdev" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
-
-<br />
 
 <p align="center">
   <i>Siempre aprendiendo · Siempre construyendo · Siempre enviando</i>

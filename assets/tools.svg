@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 124" width="100%" height="124" role="img" aria-label="Spring Cloud, Spring Security, Spring WebFlux, Eureka, OpenFeign, Resilience4j, Apache Kafka, OAuth2, JWT, OpenAPI / Swagger, Hibernate / JPA, Flyway, JUnit 5, Mockito, Testcontainers, Docker Compose, Nginx, Prometheus, Grafana, Vite, Tailwind CSS, Redux Toolkit, Sequelize, Vitest">
+  <title>Librerías, estándares y herramientas</title>
+  <rect x=".5" y=".5" width="959" height="123" rx="12" fill="#0D1524" stroke="#1F6FEB" stroke-opacity=".3"/>
+  <g>
+    <rect x="99.5" y="14.0" width="105.8" height="24.0" rx="12.0" fill="#6DB33F" fill-opacity=".16" stroke="#6DB33F" stroke-opacity=".6"/>
+    <text x="152.4" y="30.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#6DB33F" textLength="81.8" lengthAdjust="spacing">Spring Cloud</text>
+  </g>
+  <g>
+    <rect x="213.2" y="14.0" width="126.2" height="24.0" rx="12.0" fill="#6DB33F" fill-opacity=".16" stroke="#6DB33F" stroke-opacity=".6"/>
+    <text x="276.3" y="30.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#6DB33F" textLength="102.2" lengthAdjust="spacing">Spring Security</text>
+  </g>
+  <g>
+    <rect x="347.4" y="14.0" width="119.4" height="24.0" rx="12.0" fill="#6DB33F" fill-opacity=".16" stroke="#6DB33F" stroke-opacity=".6"/>
+    <text x="407.1" y="30.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#6DB33F" textLength="95.4" lengthAdjust="spacing">Spring WebFlux</text>
+  </g>
+  <g>
+    <rect x="474.8" y="14.0" width="64.9" height="24.0" rx="12.0" fill="#9BE564" fill-opacity=".16" stroke="#9BE564" stroke-opacity=".6"/>
+    <text x="507.2" y="30.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#9BE564" textLength="40.9" lengthAdjust="spacing">Eureka</text>
+  </g>
+  <g>
+    <rect x="547.7" y="14.0" width="85.3" height="24.0" rx="12.0" fill="#9BE564" fill-opacity=".16" stroke="#9BE564" stroke-opacity=".6"/>
+    <text x="590.3" y="30.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#9BE564" textLength="61.3" lengthAdjust="spacing">OpenFeign</text>
+  </g>
+  <g>
+    <rect x="641.0" y="14.0" width="105.8" height="24.0" rx="12.0" fill="#F2A93B" fill-opacity=".16" stroke="#F2A93B" stroke-opacity=".6"/>
+    <text x="693.9" y="30.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#F2A93B" textLength="81.8" lengthAdjust="spacing">Resilience4j</text>
+  </g>
+  <g>
+    <rect x="754.8" y="14.0" width="105.8" height="24.0" rx="12.0" fill="#8E7CFF" fill-opacity=".16" stroke="#8E7CFF" stroke-opacity=".6"/>
+    <text x="807.6" y="30.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#8E7CFF" textLength="81.8" lengthAdjust="spacing">Apache Kafka</text>
+  </g>
+  <g>
+    <rect x="100.5" y="46.0" width="64.9" height="24.0" rx="12.0" fill="#A371F7" fill-opacity=".16" stroke="#A371F7" stroke-opacity=".6"/>
+    <text x="133.0" y="62.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#A371F7" textLength="40.9" lengthAdjust="spacing">OAuth2</text>
+  </g>
+  <g>
+    <rect x="173.4" y="46.0" width="44.4" height="24.0" rx="12.0" fill="#E06BFF" fill-opacity=".16" stroke="#E06BFF" stroke-opacity=".6"/>
+    <text x="195.6" y="62.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#E06BFF" textLength="20.4" lengthAdjust="spacing">JWT</text>
+  </g>
+  <g>
+    <rect x="225.8" y="46.0" width="139.8" height="24.0" rx="12.0" fill="#85EA2D" fill-opacity=".16" stroke="#85EA2D" stroke-opacity=".6"/>
+    <text x="295.8" y="62.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#85EA2D" textLength="115.8" lengthAdjust="spacing">OpenAPI / Swagger</text>
+  </g>
+  <g>
+    <rect x="373.7" y="46.0" width="126.2" height="24.0" rx="12.0" fill="#CFC08E" fill-opacity=".16" stroke="#CFC08E" stroke-opacity=".6"/>
+    <text x="436.8" y="62.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#CFC08E" textLength="102.2" lengthAdjust="spacing">Hibernate / JPA</text>
+  </g>
+  <g>
+    <rect x="507.8" y="46.0" width="64.9" height="24.0" rx="12.0" fill="#FF5C5C" fill-opacity=".16" stroke="#FF5C5C" stroke-opacity=".6"/>
+    <text x="540.3" y="62.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#FF5C5C" textLength="40.9" lengthAdjust="spacing">Flyway</text>
+  </g>
+  <g>
+    <rect x="580.7" y="46.0" width="71.7" height="24.0" rx="12.0" fill="#3DD68C" fill-opacity=".16" stroke="#3DD68C" stroke-opacity=".6"/>
+    <text x="616.6" y="62.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#3DD68C" textLength="47.7" lengthAdjust="spacing">JUnit 5</text>
+  </g>
+  <g>
+    <rect x="660.4" y="46.0" width="71.7" height="24.0" rx="12.0" fill="#7ED321" fill-opacity=".16" stroke="#7ED321" stroke-opacity=".6"/>
+    <text x="696.2" y="62.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#7ED321" textLength="47.7" lengthAdjust="spacing">Mockito</text>
+  </g>
+  <g>
+    <rect x="740.1" y="46.0" width="119.4" height="24.0" rx="12.0" fill="#8B85FF" fill-opacity=".16" stroke="#8B85FF" stroke-opacity=".6"/>
+    <text x="799.8" y="62.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#8B85FF" textLength="95.4" lengthAdjust="spacing">Testcontainers</text>
+  </g>
+  <g>
+    <rect x="67.5" y="78.0" width="119.4" height="24.0" rx="12.0" fill="#4BA3F5" fill-opacity=".16" stroke="#4BA3F5" stroke-opacity=".6"/>
+    <text x="127.2" y="94.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#4BA3F5" textLength="95.4" lengthAdjust="spacing">Docker Compose</text>
+  </g>
+  <g>
+    <rect x="194.9" y="78.0" width="58.1" height="24.0" rx="12.0" fill="#2FBF71" fill-opacity=".16" stroke="#2FBF71" stroke-opacity=".6"/>
+    <text x="223.9" y="94.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#2FBF71" textLength="34.1" lengthAdjust="spacing">Nginx</text>
+  </g>
+  <g>
+    <rect x="260.9" y="78.0" width="92.1" height="24.0" rx="12.0" fill="#FF7A47" fill-opacity=".16" stroke="#FF7A47" stroke-opacity=".6"/>
+    <text x="307.0" y="94.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#FF7A47" textLength="68.1" lengthAdjust="spacing">Prometheus</text>
+  </g>
+  <g>
+    <rect x="361.1" y="78.0" width="71.7" height="24.0" rx="12.0" fill="#F58C1F" fill-opacity=".16" stroke="#F58C1F" stroke-opacity=".6"/>
+    <text x="396.9" y="94.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#F58C1F" textLength="47.7" lengthAdjust="spacing">Grafana</text>
+  </g>
+  <g>
+    <rect x="440.8" y="78.0" width="51.2" height="24.0" rx="12.0" fill="#8A8FFF" fill-opacity=".16" stroke="#8A8FFF" stroke-opacity=".6"/>
+    <text x="466.4" y="94.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#8A8FFF" textLength="27.3" lengthAdjust="spacing">Vite</text>
+  </g>
+  <g>
+    <rect x="500.0" y="78.0" width="105.8" height="24.0" rx="12.0" fill="#38BDF8" fill-opacity=".16" stroke="#38BDF8" stroke-opacity=".6"/>
+    <text x="552.9" y="94.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#38BDF8" textLength="81.8" lengthAdjust="spacing">Tailwind CSS</text>
+  </g>
+  <g>
+    <rect x="613.8" y="78.0" width="112.6" height="24.0" rx="12.0" fill="#A67BE8" fill-opacity=".16" stroke="#A67BE8" stroke-opacity=".6"/>
+    <text x="670.0" y="94.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#A67BE8" textLength="88.6" lengthAdjust="spacing">Redux Toolkit</text>
+  </g>
+  <g>
+    <rect x="734.3" y="78.0" width="85.3" height="24.0" rx="12.0" fill="#52B0E7" fill-opacity=".16" stroke="#52B0E7" stroke-opacity=".6"/>
+    <text x="777.0" y="94.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#52B0E7" textLength="61.3" lengthAdjust="spacing">Sequelize</text>
+  </g>
+  <g>
+    <rect x="827.6" y="78.0" width="64.9" height="24.0" rx="12.0" fill="#FCC72B" fill-opacity=".16" stroke="#FCC72B" stroke-opacity=".6"/>
+    <text x="860.1" y="94.4" text-anchor="middle" font-family="'Segoe UI',Inter,-apple-system,BlinkMacSystemFont,Roboto,Ubuntu,Helvetica,Arial,sans-serif" font-size="12.5"
+          font-weight="600" fill="#FCC72B" textLength="40.9" lengthAdjust="spacing">Vitest</text>
+  </g>
+</svg>
