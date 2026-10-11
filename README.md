@@ -10,6 +10,7 @@
   <a href="https://adrian0511.dev"><img src="assets/badge-portfolio.svg" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/adrdev"><img src="assets/badge-linkedin.svg" alt="LinkedIn" /></a>
   <a href="https://github.com/adrian0511?tab=repositories"><img src="assets/badge-github.svg" alt="Repositorios" /></a>
+  <a href="README.en.md"><img src="assets/badge-lang-en.svg" alt="Read this in English" /></a>
 </p>
 
 ---
@@ -19,14 +20,10 @@
 Desarrollador **backend** centrado en Java y el ecosistema Spring, con foco en **sistemas
 distribuidos**: microservicios, mensajería asíncrona y APIs documentadas por contrato. Trabajo
 también el lado cliente (React, TypeScript) porque diseñar bien una API exige entender a quien
-la consume.
+la consume, y APIs en Python con FastAPI cuando el problema pide algo más ligero.
 
-- Microservicios con **Spring Boot 4** y **Spring Cloud** — Eureka, Gateway, OpenFeign, Resilience4j
-- Arquitecturas *event-driven* con **Apache Kafka** y patrón saga entre servicios
-- Contratos de API con **OpenAPI / Swagger**, seguridad con **OAuth2** y **JWT**
-- **Arquitectura hexagonal** y DDD, con tests en todas las capas (JUnit 5, Mockito, Vitest)
-- SPAs con **React**, **TypeScript** y **Vite**, y APIs en **Python / FastAPI**
-- Despliegue con **Docker Compose**, **Nginx** y observabilidad con **Prometheus** y **Grafana**
+El día a día es **Spring Boot 4** y **Spring Cloud** sobre **Kafka**, con arquitectura hexagonal
+y tests en todas las capas. Más abajo está el detalle de cómo trabajo cada pieza.
 
 Santa Cruz de Bezana, Cantabria (España) · [adrian0511.dev](https://adrian0511.dev)
 
@@ -36,7 +33,8 @@ Santa Cruz de Bezana, Cantabria (España) · [adrian0511.dev](https://adrian0511
 
 **[`prompt-link`](https://github.com/adrian0511/prompt-link)** — cliente Java reutilizable para IA
 generativa a través de OpenRouter, con auto-configuración de Spring Boot.
-Disponible en **Maven Central** como `io.github.adrian0511:prompt-link`, versión **1.1.0**.
+
+<a href="https://central.sonatype.com/artifact/io.github.adrian0511/prompt-link"><img src="https://img.shields.io/maven-central/v/io.github.adrian0511/prompt-link?label=Maven%20Central&labelColor=0D1524&color=00F7FF&style=flat-square" alt="Última versión en Maven Central" /></a>
 
 ```xml
 <dependency>
@@ -59,14 +57,14 @@ Disponible en **Maven Central** como `io.github.adrian0511:prompt-link`, versió
 
 | Proyecto | Qué es | Stack |
 |---|---|---|
-| **[orderflow](https://github.com/adrian0511/orderflow)** | Plataforma de pedidos sobre **9 microservicios**: catálogo, reserva de inventario, pago simulado y notificación por correo, coordinados por eventos. | Java 21 · Spring Boot 4 · Kafka · OAuth2 *Authorization Code* · Eureka · Gateway · Resilience4j · OpenAPI |
-| **[finance-tracker](https://github.com/adrian0511/finance-tracker)** | Gestión de finanzas personales con asistente de IA que categoriza movimientos. Un solo artefacto: el backend sirve el cliente React desde el propio jar, sin CORS ni doble despliegue. | Spring Boot · React · PostgreSQL · JWT · IA generativa |
-| **[cookbook](https://github.com/adrian0511/cookbook)** | Gestor de recetas full-stack con **arquitectura hexagonal** (puertos y adaptadores), invariantes de dominio, paginación, búsqueda por ingrediente y valoraciones. **102 tests**. | Java 21 · Spring Boot 4.1 · React 19 · Vite · Tailwind 4 · PostgreSQL 16 · Docker |
-| **[portfolio](https://github.com/adrian0511/portfolio)** · [en vivo](https://adrian0511.dev) | Portfolio reactivo que consume la API de GitHub en tiempo real, con *timeouts*, *fallback* e i18n español/inglés. | Spring WebFlux · React 18 · Vite · JUnit 5 · Vitest |
-| **[gym-reservas](https://github.com/adrian0511/gym-reservas)** | Reservas de clases de gimnasio con cupos en tiempo real, lista de espera y control de acceso por roles. | NestJS · React 18 · TypeScript · Sequelize · PostgreSQL 16 · Tailwind |
-| **[ride-hailing-microservices](https://github.com/adrian0511/ride-hailing-microservices)** | Microservicios de *ride hailing* con autenticación centralizada: `authorization_code` para usuarios y `client_credentials` entre servicios. | Spring Cloud · OAuth2 · JWT · Eureka · OpenFeign · Circuit Breaker |
+| **[orderflow](https://github.com/adrian0511/orderflow)** | Plataforma de pedidos sobre **9 microservicios**: catálogo, reserva de inventario, pago simulado y notificación por correo, coordinados por eventos. | Java 21 · Spring Boot 4 · Kafka · OAuth2 |
+| **[finance-tracker](https://github.com/adrian0511/finance-tracker)** | Gestión de finanzas personales con asistente de IA que categoriza movimientos. Un solo artefacto: el backend sirve el cliente React desde el propio jar, sin CORS ni doble despliegue. | Spring Boot · React · PostgreSQL · JWT |
+| **[cookbook](https://github.com/adrian0511/cookbook)** | Gestor de recetas full-stack con **arquitectura hexagonal** (puertos y adaptadores), invariantes de dominio, paginación, búsqueda por ingrediente y valoraciones. **102 tests**. | Java 21 · Spring Boot 4 · React 19 · PostgreSQL |
+| **[portfolio](https://github.com/adrian0511/portfolio)** · [en vivo](https://adrian0511.dev) | Portfolio reactivo que consume la API de GitHub en tiempo real, con *timeouts*, *fallback* e i18n español/inglés. | Spring WebFlux · React 18 · Vite |
+| **[gym-reservas](https://github.com/adrian0511/gym-reservas)** | Reservas de clases de gimnasio con cupos en tiempo real, lista de espera y control de acceso por roles. | NestJS · React 18 · TypeScript · PostgreSQL |
+| **[ride-hailing-microservices](https://github.com/adrian0511/ride-hailing-microservices)** | Microservicios de *ride hailing* con autenticación centralizada: `authorization_code` para usuarios y `client_credentials` entre servicios. | Spring Cloud · OAuth2 · Eureka · OpenFeign |
+| **[challengehub](https://github.com/adrian0511/challengehub)** | API REST de retos y recompensas: progreso por usuario, insignias y control de acceso por roles, con mapeo entidad-DTO por MapStruct. | Java 25 · Spring Boot 4 · JWT · PostgreSQL |
 | **[bug-hunt](https://github.com/adrian0511/bug-hunt)** | Dos retos que comparten un mismo *token bucket* implementado **una sola vez**: filtro `stdin → stdout` y acortador de URLs con *rate limiting* por IP. | Python 3.12 · FastAPI · SQLite |
-| **[distributed-ecommerce-platform](https://github.com/adrian0511/distributed-ecommerce-platform)** | E-commerce distribuido con descubrimiento de servicios y cortocircuito ante fallos. | Spring Boot · Eureka · Gateway · Resilience4j · PostgreSQL |
 
 > El resto de repositorios, en **[github.com/adrian0511?tab=repositories](https://github.com/adrian0511?tab=repositories)**
 
@@ -120,9 +118,15 @@ Disponible en **Maven Central** como `io.github.adrian0511:prompt-link`, versió
 
 ---
 
+## Hablemos
+
+Estoy abierto a oportunidades como **desarrollador backend** (Java / Spring) y a colaborar en
+proyectos de sistemas distribuidos. Si has llegado hasta aquí desde una oferta o un proyecto,
+la vía más rápida es LinkedIn:
+
 <p align="center">
-  <a href="https://adrian0511.dev"><img src="assets/badge-portfolio.svg" alt="Portfolio" /></a>
   <a href="https://linkedin.com/in/adrdev"><img src="assets/badge-linkedin.svg" alt="LinkedIn" /></a>
+  <a href="https://adrian0511.dev"><img src="assets/badge-portfolio.svg" alt="Portfolio" /></a>
 </p>
 
 <p align="center">
